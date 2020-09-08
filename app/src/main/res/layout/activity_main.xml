@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextureView
+        android:id="@+id/texture_view_camera2"
+        android:layout_width="1200px"
+        android:layout_height="1600px" />
+
+    <Button
+        android:id="@+id/btn_camera2_takephoto"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="605dp"
+        android:background="@drawable/button"
+        android:scaleType="centerInside" />
+
+    <Button
+        android:id="@+id/btn_camera2_takephoto_continus"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/buttonc"
+        android:scaleType="centerInside" />
+
+    <Button
+        android:id="@+id/zoom"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/zooma"
+        android:scaleType="centerInside" />
+    <Button
+        android:id="@+id/zoom_d"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/zoomd"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/image_view_preview_image"
+        android:layout_width="72dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="630dp"
+        android:scaleType="centerInside" />
+    <TextView
+        android:id="@+id/led"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="730dp"
+        android:text = "准备拍摄"
+
+        />
+
+
+</RelativeLayout>

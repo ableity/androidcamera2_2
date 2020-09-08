@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_socket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="250dp"
+        android:text="开始" />
+
+    <EditText
+        android:id = "@+id/ip_socket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="45dp"
+        android:text = "192.168.43.92"
+        />
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:text="IP 地址："
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id = "@+id/text_socket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="195dp"
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:text="发送内容："
+        />
+
+
+
+
+
+    <TextView
+        android:id = "@+id/strshow_socket"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="130dp"
+        android:text="接收的数据"
+        />
+
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="320dp"
+        android:text="文件存储位置必须在：/storage/emulated/0/Android/data/com.example.androidcamera2_2/cache/"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+        android:text="文件名："
+        />
+    <EditText
+        android:id = "@+id/img_name_socket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="395dp"
+        android:text = "xjpic.jpg"
+        />
+
+    <Button
+        android:id="@+id/button2_socket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="450dp"
+        android:text="传输文件" />
+
+
+    <EditText
+        android:id = "@+id/num_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="535dp"
+        android:text = "1"
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="550dp"
+        android:text="到"/>
+    <EditText
+        android:id = "@+id/num_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="535dp"
+        android:text = "1"
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="550dp"
+        android:text=".jpg"/>
+
+    <Button
+        android:id="@+id/button_continues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="590dp"
+        android:text="连续传输" />
+    <TextView
+        android:id = "@+id/led"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="600dp"
+        android:text=""/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/set_time"
+        android:title="设置拍照间隔(ms)"/>
+    <item
+        android:id="@+id/set_num"
+        android:title="设置拍照数量(张)"/>
+    <item
+        android:id="@+id/socket"
+        android:title="数据传输"/>
+
+</menu>
